@@ -1,0 +1,177 @@
+ body {
+    padding: 0;
+    margin: 0;
+    font-family: tahoma;
+ }
+    #header {
+      text-align: center;
+      background: url("wallpaper.jpeg");
+      background-size: cover;
+      color: #57433D;
+      position: fixed;
+      z-index:1;
+      width:100%;
+      margin: -10px 0px ;
+      min-width: 340px;
+    }
+
+    #header li {
+      color: black;
+      display: inline;
+      padding: 0px 40px 0px 40px;
+      cursor: pointer;
+    }
+
+    #header p {
+      font-size: 50px;
+      margin: 10px 0px 10px 0px;
+    }
+
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 40px;
+      width: 110px;
+    }
+
+    #header ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.2);
+      margin:0px;
+    }
+  
+    #container {
+      max-width: 900px;
+      padding: 390px 20px 20px 20px;
+      margin: 0px auto;
+      clear:both; 
+      font-size: 16px;  
+      min-width: 320px;  
+    }
+
+    .type {
+      border: 3px solid #57433D;
+      border-radius: 30px;
+      padding: 10px;
+      position:relative;
+      margin:10px 0px;
+      
+    }
+
+    @media (max-width: 850px) { /*could you link to another css doc here, to replace this code here?*/
+      #header p {
+        font-size: 28px;
+        padding: 5px;
+        margin-bottom: 20px;
+      }
+
+      #header li {
+        padding: 5px;
+        display: block;
+        font-size: 14px;
+      }
+
+      #footer li {
+        font-size: 14px;
+        padding:5px;
+      }
+
+      img {
+        width:90px;
+        margin-top: 20px;
+      }
+
+      #container {
+        padding-top: 430px;
+      }
+
+      .type {
+        font-size: 14px;
+      }
+      #aboutMe {
+        padding: 320px 0px 0px 0px !important;
+      }
+    }
+
+    h4 {
+      text-align: center;
+    } 
+
+    #footer {
+      background-color:#CFC4C0;
+      padding:10px 30px;
+      text-align: center;
+      font-size: 21px;
+     
+    }
+
+    #footer li{
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 0px auto;
+    }
+
+    #footer ul {
+      padding: 10px;
+      margin: 0px;
+    }
+
+    #footer a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .rowOne {
+  font-style: italic; 
+    }
+
+.company {
+  font-weight: bold;
+}
+
+li {
+  padding: 5px 0px;
+}
+#header a {
+  text-decoration: none;
+  color: #692c4b;
+}
+
+#section {
+  
+  padding: 400px 100px 0px 100px;
+}
+
+#aboutMe {
+  padding: 400px 0px 0px 0px;
+  width: 1000px;
+  text-align:center;
+  margin: 0px auto;
+}
+
+#aboutMe td {
+  padding: 20px 0px;
+  width:50%;
+}
+
+/* beginning of looking into changing from table to div so will be responsive to changes in screen
+.sect {
+  display: inline-block;
+  max-width: 1000px
+}
+
+#desOne {
+  float: right;
+  width: 500px;
+  padding: 80px 0px 20px 0px;
+}
+
+#desTwo {
+  float: left;
+  width: 500px;
+  padding: 80px 100px 0px 0px;
+}
+*/ 
+
+
+
